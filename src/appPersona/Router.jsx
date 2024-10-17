@@ -7,7 +7,7 @@ import UpdatePerson from '../pagesPersona/UpdatePerson';
 
 function Router() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/CursoJavaReact">
     {/* <Layout> */}
       <Routes>
         <Route path="/" element={<Home />} />
